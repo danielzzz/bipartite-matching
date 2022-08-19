@@ -5,6 +5,12 @@ Takes an unweighted bipartite graph as input and returns the maximal cardinality
 This is a PHP implementation of the Hopcroft-Karp biparite matching algorithm.  
 https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Karp_algorithm
 
+## Installation
+
+```
+composer require danielzzz/bipartite
+```
+
 ## Practical usage
 
 This algorithm can be used for example to maximize number of meetings when we have each member of a group A requesting multiple meetings with people from the group B.
@@ -30,4 +36,10 @@ result:
 ]
 
 */
+```
+
+## Tests
+
+```
+composer test
 ```
