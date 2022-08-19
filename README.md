@@ -21,6 +21,7 @@ $bipartite = new Bipartite();
 $result = $bipartite->match($input);
 
 /*
+result:
 ^ array:4 [
   "personA" => "person1"
   "personC" => "person4"
